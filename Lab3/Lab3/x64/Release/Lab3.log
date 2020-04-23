@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Jam\source\repos\Lab3\Lab3\task3.h(69): warning #3947: "_Cilk_for" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    			cilk_for (int j = k; j <= rows; ++j)
+    			^
+  
+  Lab3.vcxproj -> C:\Users\Jam\source\repos\Lab3\x64\Release\Lab3.exe

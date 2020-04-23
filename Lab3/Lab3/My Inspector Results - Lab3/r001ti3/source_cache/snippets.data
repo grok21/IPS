@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Users\Jam\Downloads\lab3_vadim\task3.h" md5="">
+    <snippet line="81">
+      <line line="78">        result[k] = matrix[k][rows];</line>
+      <line line="79">        cilk_for (int j = k + 1; j &lt; rows; ++j)</line>
+      <line line="80">            result[k] -= matrix[k][j] * result[j];</line>
+      <line line="81">        result[k] /= matrix[k][k];</line>
+      <line line="82">    }</line>
+    </snippet>
+    <snippet line="93">
+      <line line="90"/>
+      <line line="91">    // ������ ������� ����</line>
+      <line line="92">    double *result = new double[MATRIX_SIZE_task3];</line>
+      <line line="93"/>
+      <line line="94">    // ������������� �������</line>
+    </snippet>
+  </file>
+</snippets>
