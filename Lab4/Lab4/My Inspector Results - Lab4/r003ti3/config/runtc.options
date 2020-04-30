@@ -1,0 +1,19 @@
+-r
+C:\Users\Jam\source\repos\Lab4\Lab4\My Inspector Results - Lab4\r003ti3
+--check-deadlock
+--check-potential-deadlock
+--save-stack-on-lock-creation
+--check-datarace
+--no-terminate-on-deadlock
+--resolution=superfine
+--check-stack-access
+--stack-depth=32
+--no-defer-memory-check
+--save-stack-on-first-access
+--save-stack-on-allocation
+--no-check-cross-thread-stack-access
+--no-close-console
+--mrte-mode=auto
+--heartbeat=1
+--
+C:\Users\Jam\source\repos\Lab4\x64\Release\Lab4.exe

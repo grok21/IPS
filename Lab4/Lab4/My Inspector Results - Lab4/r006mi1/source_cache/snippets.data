@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Users\Jam\source\repos\Lab4\Lab4\task2.h" md5="">
+    <snippet line="142">
+      <line line="139">        const size_t numb_cols = 3;</line>
+      <line line="140"/>
+      <line line="141">        double** matrix = new double*[numb_rows];</line>
+      <line line="142">        for ( size_t i = 0; i &lt; numb_rows; ++i )</line>
+      <line line="143">        {</line>
+    </snippet>
+  </file>
+</snippets>

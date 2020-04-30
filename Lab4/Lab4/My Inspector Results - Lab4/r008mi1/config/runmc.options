@@ -1,0 +1,17 @@
+-r
+C:\Users\Jam\source\repos\Lab4\Lab4\My Inspector Results - Lab4\r008mi1
+--no-access-checks
+--no-analyze-stack
+--leak-maximum=100000
+--leak-check-only
+--leak-check-on-exit
+--check-resource-leaks
+--leak-check-report-reachable
+--freelist-vol=0
+--guard-zone-size=0
+--stack-depth=8
+--no-close-console
+--mrte-mode=auto
+--heartbeat=1
+--
+C:\Users\Jam\source\repos\Lab4\x64\Release\Lab4.exe

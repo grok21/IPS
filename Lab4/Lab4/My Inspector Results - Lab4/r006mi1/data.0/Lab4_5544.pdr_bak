@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diags major="2" minor="0">
+
+<diag id="1">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>1797567944</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>1788</threadid>
+			<stackstamp>1797632052</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0xaac4</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="2">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>14314494976</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>14116</threadid>
+			<stackstamp>14314561684</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x1e3c0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="3">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>14810112242</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>3144</threadid>
+			<stackstamp>14810157638</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x1e3c0</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="4">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>14811883980</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>11396</threadid>
+			<stackstamp>14811906908</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</mod>
+				<rva>0x1a630</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="5">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>14812831816</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>4744</threadid>
+			<stackstamp>14812854636</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</mod>
+				<rva>0x1a630</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="6">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>14813880492</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>6696</threadid>
+			<stackstamp>14813903244</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</mod>
+				<rva>0x1a630</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="7">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>14818440804</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>14116</threadid>
+			<stackstamp>14818472028</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="8">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>14819214460</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>3144</threadid>
+			<stackstamp>14819265300</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="9">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46188850052</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>1788</threadid>
+			<stackstamp>46188873036</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="10">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46189222692</timestamp>
+		<thread>
+			<thrname>Cilk Worker</thrname>
+			<threadid>4744</threadid>
+			<stackstamp>46189245312</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="11">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46189584308</timestamp>
+		<thread>
+			<thrname>Cilk Worker</thrname>
+			<threadid>6696</threadid>
+			<stackstamp>46189607004</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="12">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>46189942752</timestamp>
+		<thread>
+			<thrname>Cilk Worker</thrname>
+			<threadid>11396</threadid>
+			<stackstamp>46189965332</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="13">
+	<type>1012</type>
+	<message>
+		<timestamp>46200129122</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>16</size>
+			<threadid>1788</threadid>
+			<stackstamp>14310918228</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0x1080</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0x1011</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0xaa53</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x14033</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x73690</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="14">
+	<type>1012</type>
+	<message>
+		<timestamp>46200129122</timestamp>
+		<mess_blocks>2</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>48</size>
+			<threadid>1788</threadid>
+			<stackstamp>14310933132</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0x1093</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0x1011</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0xaa53</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x14033</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x73690</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="15">
+	<type>1012</type>
+	<message>
+		<timestamp>46200129122</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>16</size>
+			<threadid>1788</threadid>
+			<stackstamp>14310970708</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0x10b1</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0x1011</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0xaa53</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x14033</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x73690</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="16">
+	<type>1012</type>
+	<message>
+		<timestamp>46200129122</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>24</size>
+			<threadid>1788</threadid>
+			<stackstamp>14310983432</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0x10bf</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0x1011</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0xaa53</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x14033</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x73690</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="17">
+	<type>1016</type>
+	<message>
+		<timestamp>46212432690</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>68</size>
+			<threadid>1788</threadid>
+			<stackstamp>14310535720</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x843d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x191b9</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x187c9</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0xa8b9</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x13b22</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0xa9a7</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x14033</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ntdll.dll</mod>
+				<rva>0x73690</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="18">
+	<type>1016</type>
+	<message>
+		<timestamp>46212432690</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>344</size>
+			<threadid>1788</threadid>
+			<stackstamp>14835343602</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x843d</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0xa323</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0xa198</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0xa512</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0xaa19</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0xa716</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0xa6d6</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140.dll</mod>
+				<rva>0x18524</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\msvcp140.dll</mod>
+				<rva>0xb576</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="19">
+	<type>1016</type>
+	<message>
+		<timestamp>46212432690</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>4096</size>
+			<threadid>1788</threadid>
+			<stackstamp>14311155304</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x15798</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x79df7</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x7863a</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\ucrtbase.dll</mod>
+				<rva>0x7ead0</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0x2dc4</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0x1222</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0x1011</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</mod>
+				<rva>0xaa53</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\system32\kernel32.dll</mod>
+				<rva>0x14033</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+</diags>

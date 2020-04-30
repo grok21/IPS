@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2020/04/30 18:32:03</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Jam\source\repos\Lab4\Lab4\My Inspector Results - Lab4\r001ti3\r001ti3.inspxe</arg>
+</msg>
+<msg id="4" tool="tc">
+  <type>START</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:03 2020</timestamp>
+</msg>
+<msg id="5" tool="tc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</arg>
+  <arg>8136</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:03 2020</timestamp>
+</msg>
+<msg id="6" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</arg>
+  <arg>0x7ff623400000</arg>
+  <arg>0x7ff623418fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:04 2020</timestamp>
+</msg>
+<msg id="7" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>0x7ffc3fc60000</arg>
+  <arg>0x7ffc3fed2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:04 2020</timestamp>
+</msg>
+<msg id="8" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>0x7ffc42970000</arg>
+  <arg>0x7ffc42a20fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:04 2020</timestamp>
+</msg>
+<msg id="9" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>0x7ffc438a0000</arg>
+  <arg>0x7ffc43a80fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:04 2020</timestamp>
+</msg>
+<msg id="10" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <arg>0x7ffc40b20000</arg>
+  <arg>0x7ffc40c17fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:04 2020</timestamp>
+</msg>
+<msg id="11" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140.dll</arg>
+  <arg>0x7ffc2e490000</arg>
+  <arg>0x7ffc2e52afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:05 2020</timestamp>
+</msg>
+<msg id="12" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140.dll</arg>
+  <arg>0x7ffc2e0b0000</arg>
+  <arg>0x7ffc2e0c4fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:05 2020</timestamp>
+</msg>
+<msg id="13" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <arg>0x7ffc18110000</arg>
+  <arg>0x7ffc18162fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:05 2020</timestamp>
+</msg>
+<msg id="14" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <arg>0x7ffc43530000</arg>
+  <arg>0x7ffc436bffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:06 2020</timestamp>
+</msg>
+<msg id="15" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <arg>0x7ffc40b00000</arg>
+  <arg>0x7ffc40b1ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:06 2020</timestamp>
+</msg>
+<msg id="16" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <arg>0x7ffc42a30000</arg>
+  <arg>0x7ffc42a57fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:06 2020</timestamp>
+</msg>
+<msg id="17" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <arg>0x7ffc408e0000</arg>
+  <arg>0x7ffc40a70fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:06 2020</timestamp>
+</msg>
+<msg id="18" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp_win.dll</arg>
+  <arg>0x7ffc405f0000</arg>
+  <arg>0x7ffc4068efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:06 2020</timestamp>
+</msg>
+<msg id="19" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <arg>0x7ffc42240000</arg>
+  <arg>0x7ffc4226cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:07 2020</timestamp>
+</msg>
+<msg id="20" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>f:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <arg>0x7ffc180d0000</arg>
+  <arg>0x7ffc18103fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:08 2020</timestamp>
+</msg>
+<msg id="21" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <arg>0x7ffc3fc10000</arg>
+  <arg>0x7ffc3fc20fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:09 2020</timestamp>
+</msg>
+<msg id="22" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>0x7ffc437d0000</arg>
+  <arg>0x7ffc4386dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:09 2020</timestamp>
+</msg>
+<msg id="23" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>0x7ffc42270000</arg>
+  <arg>0x7ffc42393fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:09 2020</timestamp>
+</msg>
+<msg id="24" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>13988,9256,5520,7708,1220</arg>
+  <arg>0,1,1,1,1</arg>
+  <arg>2366,1303,5229,995,27745</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:09 2020</timestamp>
+</msg>
+<msg id="25" tool="tc">
+  <type>UNSUPPORTED_MODULE</type>
+  <arg>Microsoft Parallel Patterns Library</arg>
+  <severity>WARNING</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="26" tool="tc">
+  <type>INTERNAL</type>
+  <severity>ERROR</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="27" tool="tc">
+  <type>ABNORMAL_TERMINATE</type>
+  <severity>ERROR</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="28" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="29" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="30" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="31" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="32" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="33" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="34" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="35" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="36" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="37" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="38" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="39" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="40" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp_win.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="41" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="42" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>f:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="43" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="44" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="45" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="46" tool="tc">
+  <type>PROCESS_TERMINATE</type>
+  <arg>c:\users\jam\source\repos\lab4\x64\release\lab4.exe</arg>
+  <arg>8136</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="47" tool="tc">
+  <type>ANALYSIS_COMPLETE</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="48" tool="tc">
+  <type>STOP</type>
+  <severity>INFO</severity>
+  <timestamp>Thu Apr 30 18:32:10 2020</timestamp>
+</msg>
+<msg id="49" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>-1</arg>
+</msg>
+<msg id="50" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Jam\source\repos\Lab4\Lab4\My Inspector Results - Lab4\r001ti3\r001ti3.inspxe</arg>
+</msg>
+<msg id="51" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="52" tool="runtool">
+  <type>log-end</type>
+  <arg>2020/04/30 18:32:13</arg>
+</msg>
+
+</log>
+

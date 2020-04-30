@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Jam\source\repos\Lab4\Lab4\task2.h(63): warning #3947: "_Cilk_for" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    				cilk_for( size_t j = 0; j < numb_cols; ++j )
+    				^
+  
+  Lab4.vcxproj -> C:\Users\Jam\source\repos\Lab4\x64\Release\Lab4.exe

@@ -1,0 +1,49 @@
+
+=== Start: [2020/04/30 18:32:23] === 
+Analysis started...
+Result file: C:\Users\Jam\source\repos\Lab4\Lab4\My Inspector Results - Lab4\r002ti3\r002ti3.inspxe 
+Found target process c:\users\jam\source\repos\lab4\x64\release\lab4.exe (PID = 12112). Analysis started... 
+Loaded module: c:\users\jam\source\repos\lab4\x64\release\lab4.exe. 
+Loaded module: c:\windows\system32\kernelbase.dll. 
+Loaded module: c:\windows\system32\kernel32.dll. 
+Loaded module: c:\windows\system32\ntdll.dll. 
+Loaded module: c:\windows\system32\ucrtbase.dll. 
+Loaded module: c:\windows\system32\vcruntime140.dll. 
+Loaded module: c:\windows\system32\msvcp140.dll. 
+Loaded module: f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll. 
+Loaded module: c:\windows\system32\user32.dll. 
+Loaded module: c:\windows\system32\win32u.dll. 
+Loaded module: c:\windows\system32\gdi32.dll. 
+Loaded module: c:\windows\system32\gdi32full.dll. 
+Loaded module: c:\windows\system32\msvcp_win.dll. 
+Loaded module: c:\windows\system32\imm32.dll. 
+Loaded module: f:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll. 
+Loaded module: c:\windows\system32\kernel.appcore.dll. 
+Loaded module: c:\windows\system32\msvcrt.dll. 
+Loaded module: c:\windows\system32\rpcrt4.dll. 
+Warning: Inspector does not support the Microsoft Parallel Patterns Library and may report false positives. Refer to the product release notes. 
+Error: Internal error. Please contact Intel customer support team. 
+Error: Analysis terminated abnormally. 
+Unloaded module: c:\users\jam\source\repos\lab4\x64\release\lab4.exe. 
+Unloaded module: c:\windows\system32\kernelbase.dll. 
+Unloaded module: c:\windows\system32\kernel32.dll. 
+Unloaded module: c:\windows\system32\ntdll.dll. 
+Unloaded module: c:\windows\system32\ucrtbase.dll. 
+Unloaded module: c:\windows\system32\vcruntime140.dll. 
+Unloaded module: c:\windows\system32\msvcp140.dll. 
+Unloaded module: f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll. 
+Unloaded module: c:\windows\system32\user32.dll. 
+Unloaded module: c:\windows\system32\win32u.dll. 
+Unloaded module: c:\windows\system32\gdi32.dll. 
+Unloaded module: c:\windows\system32\gdi32full.dll. 
+Unloaded module: c:\windows\system32\msvcp_win.dll. 
+Unloaded module: c:\windows\system32\imm32.dll. 
+Unloaded module: f:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll. 
+Unloaded module: c:\windows\system32\kernel.appcore.dll. 
+Unloaded module: c:\windows\system32\msvcrt.dll. 
+Unloaded module: c:\windows\system32\rpcrt4.dll. 
+Process c:\users\jam\source\repos\lab4\x64\release\lab4.exe (PID = 12112) has terminated. 
+Application exit code: -1 
+Result file: C:\Users\Jam\source\repos\Lab4\Lab4\My Inspector Results - Lab4\r002ti3\r002ti3.inspxe 
+Analysis completed
+=== End: [2020/04/30 18:32:34] === 
