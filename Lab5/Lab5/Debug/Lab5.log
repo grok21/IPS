@@ -1,0 +1,3 @@
+﻿  main.cpp
+c1xx : warning C4199: двухэтапный поиск имен не поддерживается для C++/CLI, C++/CX или OpenMP. Используйте /Zc:twoPhase-
+  Lab5.vcxproj -> C:\Users\Jam\source\repos\Lab5\Debug\Lab5.exe
