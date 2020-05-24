@@ -1,0 +1,116 @@
+175 [9280] INFO perfrun.launcher <> - Launcher main begin
+181 [9280] INFO perfrun.launcher <> - MessageCatalogInit finished
+182 [9280] INFO perfrun.launcher <> - Launcher instance created
+182 [9280] INFO perfrun.launcher <> - argc = 7; cmdline = F:\Program Files (x86)\IntelSWTools\Advisor 2019\bin64\advixe-runss.exe --ui-output-format xml --ui-output-fd 3440 --option-file C:\Users\Jam\source\repos\Serial\Serial\My Advisor Results - Serial\e000\hs000\config\runss.options 
+275 [9280] INFO perfrun.launcher <> - New signal handler callback was added
+290 [9280] INFO perfrun.launcher <> - plugin remoteplug has been added successfully
+290 [9280] INFO perfrun.launcher <> - plugin system has been added successfully
+290 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+290 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+290 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+290 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+290 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+290 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+290 [9280] INFO perfrun.launcher <> - plugin mrte has been added successfully
+291 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+291 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+291 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+293 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+293 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+293 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+302 [9280] INFO perfrun.launcher <> - plugin tpss has been added successfully
+302 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+302 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+302 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+302 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+302 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+302 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+302 [9280] INFO perfrun.launcher <> - plugin  has been added successfully
+303 [9280] INFO perfrun.launcher <> - the option was added --interval: Specify an interval of data collection (for example, sampling) in milliseconds.
+303 [9280] INFO perfrun.launcher <> - the option was added --follow-child: Profile process with or without children.
+303 [9280] INFO perfrun.launcher <> - the option was added --gelding: BADMSG: perfrun1.launcher.plugin_manager::gelding
+303 [9280] INFO perfrun.launcher <> - the option was added --time-source: Specify time source for measurement. Possible values: sys - wall clock time; tsc - time stamp counter; ext - time from an external source; auto - auto select accurate time source.
+303 [9280] INFO perfrun.launcher <> - the option was added --stack: Enable or disable collection of stacks.
+303 [9280] INFO perfrun.launcher <> - the option was added --stack-stitching: Enable or disable the stack stitching algorithm for Intel TBB-based applications.
+303 [9280] INFO perfrun.launcher <> - the option was added --type: Specify type of data to be collected. For example, --type cpu:counters,waiting:nostack,io.
+304 [9280] INFO perfrun.launcher <> - the option was added --mrte-mode: Specify Java/.NET/other managed runtime collection mode. Possible values: native - collect information only for native code; managed - collect information only for managed code; mixed - collect information for both managed and native code; auto - choose the mode based on binary type.
+304 [9280] INFO perfrun.launcher <> - the option was added --mrte-mode-list: List supported Java/.NET/other managed runtime collection modes.
+304 [9280] INFO perfrun.launcher <> - the option was added --mrte-type: Specify which managed runtimes to collect. Possible values: java - collect information for Java; dotnet - collect information for .NET; python - collect information for CPython. You can specify several values separated by comma.
+304 [9280] INFO perfrun.launcher <> - the option was added --mrte-type-list: List supported Java/.NET/other managed runtime types.
+304 [9280] INFO perfrun.launcher <> - the option was added --trace-strategy: Specify how to profile a process tree. <string> can be "<process>:trace:notrace" - profile the process but do not profile its children. Shorthand parameters: t - trace, nt - notrace. For example, "vtunedemo.exe:t:t".
+304 [9280] INFO perfrun.launcher <> - the option was added --collector: BADMSG: perfrun1.launcher.plugin_manager::collector
+305 [9280] INFO perfrun.launcher <> - the option was added --system-wide: Enable system-wide profiling. This mode may require additional permissions.
+305 [9280] INFO perfrun.launcher <> - the option was added --kvm-guest: Enable KVM guest OS profiling.
+305 [9280] INFO perfrun.launcher <> - the option was added --kvm-guest-kallsyms: Specify a local path to the /proc/kallsyms file copied from the guest OS for proper symbol resolution.
+305 [9280] INFO perfrun.launcher <> - the option was added --kvm-guest-modules: Specify a local path to the /proc/modules file copied from the guest OS for proper symbol resolution.
+305 [9280] INFO perfrun.launcher <> - the option was added --bandwidth-limits: Measure bandwidth limits
+305 [9280] INFO perfrun.launcher <> - the option was added --bandwidth-strategy: Bandwidth limits determination specific properties (example: --bandwidth-strategy array-size=0,duration=500).
+305 [9280] INFO perfrun.launcher <> - the option was added --bandwidth-config: List of benchmarks to run.
+306 [9280] INFO perfrun.launcher <> - the option was added --system-collector-config: Specify subcollectors. Possible values: all, vdso, container, device-info, none.
+306 [9280] INFO perfrun.launcher <> - the option was added --stackwalk: Specify stack unwinding method. Possible values: online - unwind stacks during collection; offline - unwind stacks after collection is finished.
+306 [9280] INFO perfrun.launcher <> - the option was added --filter-include: Filter data during collection. Possible values: contended=<on|off> - filter out uncontended events; contended_nostack=<time> - filter out stacks for contended events that take less than <time> microseconds; wait=<time> - ignore transitions and blocks with wait time less than <time> microseconds; wait_nostack=<time> - filter out stacks for waits that take less than <time> microseconds.
+306 [9280] INFO perfrun.launcher <> - the option was added --debug-pin: Debug PIN tool and runtime.
+307 [9280] INFO perfrun.launcher <> - the option was added --debug-exception: Disallow the application to set own abnormal termination handler.
+307 [9280] INFO perfrun.launcher <> - the option was added --trace-type: Specify the trace file granularity. Possible values: per-thread - per-thread trace file generation; per-process - per-process trace file generation.
+307 [9280] INFO perfrun.launcher <> - the option was added --instrumentation-type: Specify type of instrumentation.
+307 [9280] INFO perfrun.launcher <> - the option was added --guard-pulse-event: Enable handling of PulseEvent API in order not to miss signals made by the API during Hotspots collection.
+307 [9280] INFO perfrun.launcher <> - the option was added --memory-strategy: Specify a minimal memory object size to be traced and a hash table size for faster objects search; for example: --memory-strategy obj-size-min=1024,hash-table-size=4096.
+308 [9280] INFO perfrun.launcher <> - the option was added --opencl-trace-mode: Specify OpenCL kernel tracing modes: 'default' to trace OpenCL kernels for Intel Graphics Driver only; 'epoch' for any non-Intel graphics, where OpenCL kernels will be traced and OpenCL profiling API timestamps will be interpreted as Unux Epoch time in nanoseconds; 'completion' to trace OpenCL kernels for any Graphics Driver and bind OpenCL profiling API timestamps to the timestamp of OpenCL completion callback.
+319 [9280] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+334 [9280] INFO perfrun.launcher <> - create file finder object
+334 [9280] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\Jam\source\repos\Serial\Serial\My Advisor Results - Serial\e000\hs000 pid = 4294967295
+343 [9280] INFO perfrun.launcher <> - create data directory = C:\Users\Jam\source\repos\Serial\Serial\My Advisor Results - Serial\e000\hs000\data.0
+355 [9280] INFO perfrun.launcher <> - Creating the master collection flag
+371 [9280] INFO perfrun.launcher <> - Done creating the master collection flag
+371 [12996] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+372 [12996] INFO perfrun.sdk <> - Allocating TMU :C:\Users\Jam\source\repos\Serial\Serial\My Advisor Results - Serial\e000\hs000\data.0\systemcollector-11556-DESKTOP-777K33R.sc
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [mrte] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+379 [12996] INFO perfrun.tpss <> - initialize tpss controller
+379 [12996] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+379 [12996] INFO perfrun.tpss <> - default obj-size-min=1024
+379 [12996] INFO perfrun.tpss <> - default hash-table-size=0
+380 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+380 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+380 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+380 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+380 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+380 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+380 [12996] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+380 [9280] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+390 [9280] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe' is valid.
+390 [9280] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe
+408 [9280] INFO perfrun.launcher <> - Launcher: command line to start after modification = F:\Program Files (x86)\IntelSWTools\Advisor 2019\bin64\pin.exe -error_file C:\Users\Jam\source\repos\Serial\Serial\My Advisor Results - Serial\e000\hs000\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 F:\Program Files (x86)\IntelSWTools\Advisor 2019\bin32\pin.exe -p64 F:\Program Files (x86)\IntelSWTools\Advisor 2019\bin64\pin.exe -t64 F:\Program Files (x86)\IntelSWTools\Advisor 2019\bin64\tpsstool.dll -t F:\Program Files (x86)\IntelSWTools\Advisor 2019\bin32\tpsstool.dll -server_name tpss_ipc.11556 -prd_dir F:\Program Files (x86)\IntelSWTools\Advisor 2019 -- C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe
+408 [9280] INFO perfrun.launcher <> - ProcessCreator object was created
+447 [9280] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+544 [12996] INFO perfrun.system <> - OpenCL gpu adapter vendor Id 4318
+546 [12996] INFO perfrun.tpss <> - start tpss controller for pid #5300
+599 [9280] INFO perfrun.launcher <> - Launcher: all plugins were started
+599 [9280] INFO perfrun.launcher <> - DirectoryMonitor object was created
+599 [9280] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+599 [9280] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+599 [9280] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+599 [9280] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+610 [9280] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+1789 [9280] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+1812 [12996] INFO perfrun.tpss <> - stop tpss controller
+1814 [12996] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\Jam\source\repos\Serial\Serial\My Advisor Results - Serial\e000\hs000\data.0\systemcollector-11556-DESKTOP-777K33R.sc
+1830 [12996] INFO perfrun.system <> - closed the system trace file: C:\Users\Jam\source\repos\Serial\Serial\My Advisor Results - Serial\e000\hs000\data.0\systemcollector-11556-DESKTOP-777K33R.sc
+1830 [9280] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+1830 [9280] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+1831 [9280] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+1831 [9280] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+1831 [9280] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:212
+1834 [9280] INFO perfrun.launcher <> - Application exit code: 0
+1834 [9280] INFO perfrun.launcher <> - Exit code: 0

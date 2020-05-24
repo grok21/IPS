@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2020/05/24 17:55:47</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Jam\source\repos\Parallel\Parallel\My Inspector Results - Parallel\r002ti3\r002ti3.inspxe</arg>
+</msg>
+<msg id="4" tool="tc">
+  <type>START</type>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:47 2020</timestamp>
+</msg>
+<msg id="5" tool="tc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\jam\source\repos\parallel\x64\debug\parallel.exe</arg>
+  <arg>1812</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:47 2020</timestamp>
+</msg>
+<msg id="6" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\users\jam\source\repos\parallel\x64\debug\parallel.exe</arg>
+  <arg>0x7ff748f20000</arg>
+  <arg>0x7ff748f72fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:47 2020</timestamp>
+</msg>
+<msg id="7" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <arg>0x7fffb81b0000</arg>
+  <arg>0x7fffb8422fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:47 2020</timestamp>
+</msg>
+<msg id="8" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <arg>0x7fffbad00000</arg>
+  <arg>0x7fffbadb0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:47 2020</timestamp>
+</msg>
+<msg id="9" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <arg>0x7fffbb8e0000</arg>
+  <arg>0x7fffbbac0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:47 2020</timestamp>
+</msg>
+<msg id="10" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140d.dll</arg>
+  <arg>0x7fff52fb0000</arg>
+  <arg>0x7fff530a0fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:48 2020</timestamp>
+</msg>
+<msg id="11" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140d.dll</arg>
+  <arg>0x7fff7f560000</arg>
+  <arg>0x7fff7f581fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:49 2020</timestamp>
+</msg>
+<msg id="12" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\libmmdd.dll</arg>
+  <arg>0x7fff50260000</arg>
+  <arg>0x7fff506c5fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:49 2020</timestamp>
+</msg>
+<msg id="13" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <arg>0x7fff610f0000</arg>
+  <arg>0x7fff61142fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:49 2020</timestamp>
+</msg>
+<msg id="14" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbased.dll</arg>
+  <arg>0x7fff50c70000</arg>
+  <arg>0x7fff50e31fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:49 2020</timestamp>
+</msg>
+<msg id="15" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <arg>0x7fffbaaf0000</arg>
+  <arg>0x7fffbac7ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:50 2020</timestamp>
+</msg>
+<msg id="16" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <arg>0x7fffb8430000</arg>
+  <arg>0x7fffb844ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:50 2020</timestamp>
+</msg>
+<msg id="17" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <arg>0x7fffbb520000</arg>
+  <arg>0x7fffbb547fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:50 2020</timestamp>
+</msg>
+<msg id="18" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <arg>0x7fffb7db0000</arg>
+  <arg>0x7fffb7f40fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:50 2020</timestamp>
+</msg>
+<msg id="19" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp_win.dll</arg>
+  <arg>0x7fffb7d10000</arg>
+  <arg>0x7fffb7daefff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:50 2020</timestamp>
+</msg>
+<msg id="20" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <arg>0x7fffb8050000</arg>
+  <arg>0x7fffb8147fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:50 2020</timestamp>
+</msg>
+<msg id="21" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <arg>0x7fffb9280000</arg>
+  <arg>0x7fffb92acfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:52 2020</timestamp>
+</msg>
+<msg id="22" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>f:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <arg>0x7fff5bf60000</arg>
+  <arg>0x7fff5bf93fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:53 2020</timestamp>
+</msg>
+<msg id="23" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>1828,12008,9168,10404</arg>
+  <arg>1,1,1,0</arg>
+  <arg>5412,1126,1461,53822</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:54 2020</timestamp>
+</msg>
+<msg id="24" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>7024,1828,12008,9168,10404</arg>
+  <arg>0,1,1,1,0</arg>
+  <arg>2,0,0,0,1514</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:55 2020</timestamp>
+</msg>
+<msg id="25" tool="tc">
+  <type>THREADNAME</type>
+  <arg>2404</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:56 2020</timestamp>
+</msg>
+<msg id="26" tool="tc">
+  <type>THREADNAME</type>
+  <arg>11156</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:56 2020</timestamp>
+</msg>
+<msg id="27" tool="tc">
+  <type>THREADNAME</type>
+  <arg>7024</arg>
+  <arg>Cilk Worker</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:56 2020</timestamp>
+</msg>
+<msg id="28" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>315534,312923,2349889,0,0,0,2098</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:56 2020</timestamp>
+</msg>
+<msg id="29" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>552993,244733,4140378,0,0,0,189273</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:57 2020</timestamp>
+</msg>
+<msg id="30" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>612291,506990,1638196,0,0,0,570951</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:58 2020</timestamp>
+</msg>
+<msg id="31" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>342923,270329,206007,0,0,0,534306</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:55:59 2020</timestamp>
+</msg>
+<msg id="32" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>160752,157690,155124,0,0,0,267426</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:00 2020</timestamp>
+</msg>
+<msg id="33" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>239844,191844,151625,0,0,0,313152</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:01 2020</timestamp>
+</msg>
+<msg id="34" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>154426,262829,235775,0,0,0,412789</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:02 2020</timestamp>
+</msg>
+<msg id="35" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>207962,163999,147231,0,0,0,221953</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:03 2020</timestamp>
+</msg>
+<msg id="36" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>122736,120388,126864,0,0,0,118359</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:04 2020</timestamp>
+</msg>
+<msg id="37" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>0,0,0,1,1,1,0</arg>
+  <arg>131244,130331,129452,0,0,0,128715</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:05 2020</timestamp>
+</msg>
+<msg id="38" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>69939,35761,147016,0,0,0,46109</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:06 2020</timestamp>
+</msg>
+<msg id="39" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,49436</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:07 2020</timestamp>
+</msg>
+<msg id="40" tool="tc">
+  <type>HEARTBEAT</type>
+  <arg>2404,11156,7024,1828,12008,9168,10404</arg>
+  <arg>1,1,1,1,1,1,0</arg>
+  <arg>0,0,0,0,0,0,4536746</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:08 2020</timestamp>
+</msg>
+<msg id="41" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <arg>0x7fffb7c50000</arg>
+  <arg>0x7fffb7c60fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:08 2020</timestamp>
+</msg>
+<msg id="42" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <arg>0x7fffbb800000</arg>
+  <arg>0x7fffbb89dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:08 2020</timestamp>
+</msg>
+<msg id="43" tool="tc">
+  <type>LOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <arg>0x7fffb90f0000</arg>
+  <arg>0x7fffb9213fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:08 2020</timestamp>
+</msg>
+<msg id="44" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\users\jam\source\repos\parallel\x64\debug\parallel.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="45" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernelbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="46" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="47" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ntdll.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="48" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="49" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\vcruntime140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="50" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\libmmdd.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="51" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="52" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbased.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="53" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\user32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="54" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\win32u.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="55" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="56" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\gdi32full.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="57" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcp_win.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="58" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\ucrtbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="59" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\imm32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="60" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>f:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="61" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\kernel.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="62" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\msvcrt.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="63" tool="tc">
+  <type>UNLOAD_MODULE</type>
+  <arg>c:\windows\system32\rpcrt4.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="64" tool="tc">
+  <type>PROCESS_TERMINATE</type>
+  <arg>c:\users\jam\source\repos\parallel\x64\debug\parallel.exe</arg>
+  <arg>1812</arg>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="65" tool="tc">
+  <type>ANALYSIS_COMPLETE</type>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="66" tool="tc">
+  <type>STOP</type>
+  <severity>INFO</severity>
+  <timestamp>Sun May 24 17:56:09 2020</timestamp>
+</msg>
+<msg id="67" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="68" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Jam\source\repos\Parallel\Parallel\My Inspector Results - Parallel\r002ti3\r002ti3.inspxe</arg>
+</msg>
+<msg id="69" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="70" tool="runtool">
+  <type>log-end</type>
+  <arg>2020/05/24 17:56:14</arg>
+</msg>
+
+</log>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\list" md5="">
+    <snippet line="425">
+      <line line="422">    using const_reference = const value_type&amp;;</line>
+      <line line="423"/>
+      <line line="424">    _List_val()</line>
+      <line line="425">        : _Myhead(),</line>
+      <line line="426">        _Mysize(0)</line>
+    </snippet>
+  </file>
+  <file name="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\xmemory0" md5="">
+    <snippet line="52">
+      <line line="49">    _DECLSPEC_ALLOCATOR static void * _Allocate(const size_t _Bytes)</line>
+      <line line="50">        {</line>
+      <line line="51">        return (::operator new(_Bytes));</line>
+      <line line="52">        }</line>
+      <line line="53"/>
+    </snippet>
+  </file>
+</snippets>

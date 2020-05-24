@@ -1,0 +1,125 @@
+# callstacks file version: 5
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined
+         1	        -1	     69742	    0	      0	                        func@0x14001106e	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	69742	5	0	44	0	0
+         2	        -1	    472720	    0	      1	                      RtlUserThreadStart	C:\Windows\SYSTEM32\ntdll.dll	472688	72	0	1	0	0
+         3	         2	     81971	    0	      1	                     BaseThreadInitThunk	C:\Windows\System32\KERNEL32.DLL	81952	55	0	2	0	0
+         4	         3	    176872	    0	      0	                          mainCRTStartup	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	176864	14	0	45	0	0
+         5	         4	    176125	    0	      0	                        func@0x14002aff0	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	176112	19	0	46	0	0
+         6	         5	    176445	    0	      0	                        func@0x14002b010	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	176144	414	0	47	0	0
+         7	         6	    176723	    0	      0	                        func@0x14002b220	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	176672	57	0	48	0	0
+         8	         7	    127630	    0	      0	                                    main	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	127456	445	0	49	0	0
+         9	       107	    128997	    1	      0	[Loop at line 294 in high_level_analysis::GetSolution]	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	128915	85	129000	50	0	0
+        10	         9	    124270	    0	      0	     low_level_fragmentation::GetBoxType	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	124144	456	0	53	0	0
+        11	        10	    126225	    0	      0	          high_level_analysis::GetMinMax	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	124720	2723	0	54	0	0
+        12	        11	    162373	    0	      0	std::vector<double,class std::allocator<double> >::push_back	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	162288	96	0	55	0	0
+        13	        12	    107666	    0	      0	std::vector<double,class std::allocator<double> >::emplace_back<double>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	107504	177	0	56	0	0
+        14	        13	     95975	    0	      0	std::vector<double,class std::allocator<double> >::_Emplace_reallocate<double>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	95760	620	0	57	0	0
+        15	        14	    153838	    0	      0	        std::allocator<double>::allocate	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	153760	89	0	58	0	0
+        16	        15	     89446	    0	      0	std::_Allocate<16,struct std::_Default_allocate_traits,0>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	89344	117	0	59	0	0
+        17	        16	    134225	    0	      0	std::_Default_allocate_traits::_Allocate	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	134160	76	0	60	0	0
+        18	       109	    171938	    1	      0	       [Loop at line 35 in operator new]	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	171929	59	171952	61	0	0
+        19	        18	    352093	    0	      1	                                  malloc	C:\Windows\SYSTEM32\ucrtbased.dll	352064	35	0	3	0	0
+        20	        19	    349422	    0	      1	                              malloc_dbg	C:\Windows\SYSTEM32\ucrtbased.dll	349376	52	0	5	0	0
+        21	       119	    336940	    1	      1	  [Loop@0x180052415 in func@0x1800523e0]	C:\Windows\SYSTEM32\ucrtbased.dll	336917	62	0	6	0	0
+        22	        21	    337541	    0	      1	                        func@0x180052490	C:\Windows\SYSTEM32\ucrtbased.dll	337040	1078	0	11	0	0
+        23	        22	    102954	    0	      1	                        func@0x180019140	C:\Windows\SYSTEM32\ntdll.dll	102720	2234	0	10	0	0
+        24	       117	    105201	    1	      1	  [Loop@0x180019ae0 in func@0x180019a00]	C:\Windows\SYSTEM32\ntdll.dll	105184	3239	0	24	0	0
+        25	        10	    125929	    0	      0	          high_level_analysis::GetMinMax	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	124720	2723	0	54	0	0
+        26	        25	    162373	    0	      0	std::vector<double,class std::allocator<double> >::push_back	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	162288	96	0	55	0	0
+        27	        26	    107666	    0	      0	std::vector<double,class std::allocator<double> >::emplace_back<double>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	107504	177	0	56	0	0
+        28	        27	     96346	    0	      0	std::vector<double,class std::allocator<double> >::_Emplace_reallocate<double>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	95760	620	0	57	0	0
+        29	        28	    136204	    0	      0	std::vector<double,class std::allocator<double> >::_Change_array	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	135968	363	0	63	0	0
+        30	        29	    156265	    0	      0	      std::allocator<double>::deallocate	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	156176	100	0	64	0	0
+        31	        30	     92765	    0	      0	                  std::_Deallocate<16,0>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	92656	120	0	65	0	0
+        32	        31	    172055	    0	      0	                         operator delete	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	172032	29	0	66	0	0
+        33	        32	    178007	    0	      0	                         operator delete	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	177984	29	0	67	0	0
+        34	        33	    349305	    0	      1	                                free_dbg	C:\Windows\SYSTEM32\ucrtbased.dll	349264	98	0	12	0	0
+        35	        10	    127043	    0	      0	          high_level_analysis::GetMinMax	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	124720	2723	0	54	0	0
+        36	        35	    162373	    0	      0	std::vector<double,class std::allocator<double> >::push_back	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	162288	96	0	55	0	0
+        37	        36	    107666	    0	      0	std::vector<double,class std::allocator<double> >::emplace_back<double>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	107504	177	0	56	0	0
+        38	        37	     95952	    0	      0	std::vector<double,class std::allocator<double> >::_Emplace_reallocate<double>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	95760	620	0	57	0	0
+        39	        38	    135526	    0	      0	std::vector<double,class std::allocator<double> >::_Calculate_growth	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	135456	200	0	68	0	0
+        40	        39	    154721	    0	      0	std::vector<double,class std::allocator<double> >::capacity	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	154624	132	0	69	0	0
+        41	        40	    145472	    0	      0	std::_Vector_alloc<struct std::_Vec_base_types<double,class std::allocator<double> > >::_Myfirst	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	145408	93	0	70	0	0
+        42	        41	    171859	    0	      0	             _CheckForDebuggerJustMyCode	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	171840	60	0	71	0	0
+        43	         9	    124501	    0	      0	     low_level_fragmentation::GetBoxType	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	124144	456	0	53	0	0
+        44	        43	    162493	    0	      0	std::vector<struct Box,class std::allocator<struct Box> >::push_back	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	162416	88	0	72	0	0
+        45	        44	    107384	    0	      0	std::vector<struct Box,class std::allocator<struct Box> >::emplace_back<struct Box const &>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	107280	177	0	73	0	0
+        46	        45	     94384	    0	      0	std::vector<struct Box,class std::allocator<struct Box> >::_Emplace_back_with_unused_capacity<struct Box const &>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	94240	273	0	74	0	0
+        47	        46	    106256	    0	      0	std::_Default_allocator_traits<class std::allocator<struct Box> >::construct<struct Box,struct Box const &>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	106192	129	0	75	0	0
+        48	        47	    171845	    0	      0	             _CheckForDebuggerJustMyCode	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	171840	60	0	71	0	0
+        49	        10	    127381	    0	      0	          high_level_analysis::GetMinMax	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	124720	2723	0	54	0	0
+        50	        49	    119963	    0	      0	std::vector<double,class std::allocator<double> >::operator=	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	119808	198	0	76	0	0
+        51	        50	    145485	    0	      0	std::_Vector_alloc<struct std::_Vec_base_types<double,class std::allocator<double> > >::_Myfirst	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	145408	93	0	70	0	0
+        52	        51	    139680	    0	      0	std::_Vector_alloc<struct std::_Vec_base_types<double,class std::allocator<double> > >::_Get_data	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	139600	92	0	77	0	0
+        53	        52	    141392	    0	      0	std::_Compressed_pair<class std::allocator<double>,class std::_Vector_val<struct std::_Simple_types<double> >,1>::_Get_second	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	141328	83	0	78	0	0
+        54	        53	    171845	    0	      0	             _CheckForDebuggerJustMyCode	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	171840	60	0	71	0	0
+        55	        13	     96346	    0	      0	std::vector<double,class std::allocator<double> >::_Emplace_reallocate<double>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	95760	620	0	57	0	0
+        56	        55	    136157	    0	      0	std::vector<double,class std::allocator<double> >::_Change_array	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	135968	363	0	63	0	0
+        57	        56	    145312	    0	      0	std::_Vector_alloc<struct std::_Vec_base_types<double,class std::allocator<double> > >::_Myfirst	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	145280	93	0	79	0	0
+        58	         7	    127722	    0	      0	                                    main	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	127456	445	0	49	0	0
+        59	        58	     88232	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	87216	1045	0	80	0	0
+        60	        59	    174553	    0	      0	                      RTC_CheckStackVars	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	174528	129	0	81	0	0
+        61	         7	    127827	    0	      0	                                    main	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	127456	445	0	49	0	0
+        62	       111	    131141	    1	      0	      [Loop at line 323 in WriteResults]	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	130973	227	131200	82	0	0
+        63	        62	     87505	    0	      0	std::operator<<<struct std::char_traits<char> >	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	87216	1045	0	80	0	0
+        64	        63	    120789	    0	      0	std::basic_ostream<char,struct std::char_traits<char> >::sentry::operator bool	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	120784	75	0	84	0	0
+        65	       111	    131126	    1	      0	      [Loop at line 323 in WriteResults]	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	130973	227	131200	82	0	0
+        66	        65	    470369	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SYSTEM32\MSVCP140D.dll	469872	513	0	4	0	0
+        67	        66	    154134	    0	      1	                        func@0x1800259e0	C:\Windows\SYSTEM32\MSVCP140D.dll	154080	61	0	8	0	0
+        68	        67	    154070	    0	      1	                        func@0x180025940	C:\Windows\SYSTEM32\MSVCP140D.dll	153920	157	0	9	0	0
+        69	        68	    151909	    0	      0	std::basic_filebuf<char,struct std::char_traits<char> >::_Unlock	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	151856	101	0	85	0	0
+        70	        69	    171845	    0	      0	             _CheckForDebuggerJustMyCode	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	171840	60	0	71	0	0
+        71	       114	    131541	    1	      0	      [Loop at line 332 in WriteResults]	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	131330	227	131557	86	0	0
+        72	        71	    470257	    0	      1	std::basic_ostream<char,struct std::char_traits<char> >::operator<<	C:\Windows\SYSTEM32\MSVCP140D.dll	469872	513	0	4	0	0
+        73	        72	    527793	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::put	C:\Windows\SYSTEM32\MSVCP140D.dll	527648	161	0	13	0	0
+        74	        73	    185998	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::do_put	C:\Windows\SYSTEM32\MSVCP140D.dll	185440	607	0	14	0	0
+        75	        74	    163894	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Fput	C:\Windows\SYSTEM32\MSVCP140D.dll	162048	2016	0	16	0	0
+        76	       104	    178696	    1	      1	[Loop@0x18002b9bc in std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put]	C:\Windows\SYSTEM32\MSVCP140D.dll	178620	79	0	17	0	0
+        77	        76	    160005	    0	      1	                        func@0x1800270d0	C:\Windows\SYSTEM32\MSVCP140D.dll	159952	107	0	19	0	0
+        78	        77	    189981	    0	      1	std::basic_streambuf<char,struct std::char_traits<char> >::sputc	C:\Windows\SYSTEM32\MSVCP140D.dll	189856	139	0	21	0	0
+        79	        78	    160713	    0	      0	std::basic_filebuf<char,struct std::char_traits<char> >::overflow	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	160384	763	0	87	0	0
+        80	        79	     96767	    0	      0	                       std::_Fputc<char>	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	96688	124	0	88	0	0
+        81	        80	    502491	    0	      1	                                   fputc	C:\Windows\SYSTEM32\ucrtbased.dll	501856	668	0	15	0	0
+        82	        81	    501668	    0	      1	                            fputc_nolock	C:\Windows\SYSTEM32\ucrtbased.dll	501568	176	0	20	0	0
+        83	        82	    758231	    0	      1	                        func@0x1800b91b0	C:\Windows\SYSTEM32\ucrtbased.dll	758192	45	0	22	0	0
+        84	        83	    755966	    0	      1	                        func@0x1800b86c0	C:\Windows\SYSTEM32\ucrtbased.dll	755392	618	0	23	0	0
+        85	        84	    757000	    0	      1	                        func@0x1800b8ba0	C:\Windows\SYSTEM32\ucrtbased.dll	756640	624	0	27	0	0
+        86	        85	   1116333	    0	      1	                                   write	C:\Windows\SYSTEM32\ucrtbased.dll	1115696	660	0	30	0	0
+        87	        86	   1117321	    0	      1	                        func@0x1801108d0	C:\Windows\SYSTEM32\ucrtbased.dll	1116368	1484	0	31	0	0
+        88	       121	   1114185	    1	      1	  [Loop@0x18010ff6e in func@0x18010fed0]	C:\Windows\SYSTEM32\ucrtbased.dll	1113966	255	0	32	0	0
+        89	        88	    206200	    0	      1	                               WriteFile	C:\Windows\System32\KERNELBASE.dll	206080	366	0	42	0	0
+        90	        89	    633508	    0	      1	                             NtWriteFile	C:\Windows\SYSTEM32\ntdll.dll	633488	21	0	28	0	0
+        91	        61	    131592	    0	      0	                            WriteResults	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	130176	1510	0	83	0	0
+        92	        91	    155544	    0	      0	std::basic_ofstream<char,struct std::char_traits<char> >::close	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	155472	132	0	89	0	0
+        93	        92	    155370	    0	      0	std::basic_filebuf<char,struct std::char_traits<char> >::close	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	155232	185	0	90	0	0
+        94	        93	    482052	    0	      1	                                  fclose	C:\Windows\SYSTEM32\ucrtbased.dll	481776	308	0	34	0	0
+        95	        94	    481670	    0	      1	                           fclose_nolock	C:\Windows\SYSTEM32\ucrtbased.dll	481376	387	0	35	0	0
+        96	        95	   1068609	    0	      1	                                   close	C:\Windows\SYSTEM32\ucrtbased.dll	1068128	487	0	36	0	0
+        97	        96	   1067673	    0	      1	                        func@0x180104a50	C:\Windows\SYSTEM32\ucrtbased.dll	1067600	79	0	37	0	0
+        98	        97	   1067556	    0	      1	                        func@0x1801049f0	C:\Windows\SYSTEM32\ucrtbased.dll	1067504	76	0	38	0	0
+        99	        98	   1067777	    0	      1	                        func@0x180104ab0	C:\Windows\SYSTEM32\ucrtbased.dll	1067696	171	0	39	0	0
+       100	        99	   1068640	    0	      1	                        func@0x180104e50	C:\Windows\SYSTEM32\ucrtbased.dll	1068624	99	0	40	0	0
+       101	       100	   1068092	    0	      1	                        func@0x180104b70	C:\Windows\SYSTEM32\ucrtbased.dll	1067888	224	0	41	0	0
+       102	       101	    216977	    0	      1	                             CloseHandle	C:\Windows\System32\KERNELBASE.dll	216880	226	0	43	0	0
+       103	       102	    633732	    0	      1	                                 NtClose	C:\Windows\SYSTEM32\ntdll.dll	633712	21	0	29	0	0
+       104	        75	    178620	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SYSTEM32\MSVCP140D.dll	178592	136	0	18	0	0
+       105	        75	    178696	    0	      1	std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >::_Put	C:\Windows\SYSTEM32\MSVCP140D.dll	178592	136	0	18	0	0
+       106	         8	    128754	    0	      0	        high_level_analysis::GetSolution	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	128400	666	0	51	0	0
+       107	       106	    128915	    1	      0	[Loop at line 290 in high_level_analysis::GetSolution]	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	128754	251	129005	52	0	0
+       108	         8	    128997	    0	      0	        high_level_analysis::GetSolution	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	128400	666	0	51	0	0
+       109	        17	    171929	    0	      0	                            operator new	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	171920	80	0	62	0	0
+       110	        17	    171938	    0	      0	                            operator new	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	171920	80	0	62	0	0
+       111	        61	    130973	    0	      0	                            WriteResults	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	130176	1510	0	83	0	0
+       112	        61	    131141	    0	      0	                            WriteResults	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	130176	1510	0	83	0	0
+       113	        61	    131126	    0	      0	                            WriteResults	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	130176	1510	0	83	0	0
+       114	        61	    131330	    0	      0	                            WriteResults	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	130176	1510	0	83	0	0
+       115	        61	    131541	    0	      0	                            WriteResults	C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe	130176	1510	0	83	0	0
+       116	        23	    105173	    0	      1	                        func@0x180019a00	C:\Windows\SYSTEM32\ntdll.dll	104960	3732	0	25	0	0
+       117	       116	    105184	    1	      1	  [Loop@0x180019ad5 in func@0x180019a00]	C:\Windows\SYSTEM32\ntdll.dll	105173	3306	0	26	0	0
+       118	        23	    105201	    0	      1	                        func@0x180019a00	C:\Windows\SYSTEM32\ntdll.dll	104960	3732	0	25	0	0
+       119	        20	    336917	    0	      1	                        func@0x1800523e0	C:\Windows\SYSTEM32\ucrtbased.dll	336864	160	0	7	0	0
+       120	        20	    336940	    0	      1	                        func@0x1800523e0	C:\Windows\SYSTEM32\ucrtbased.dll	336864	160	0	7	0	0
+       121	        87	   1113966	    0	      1	                        func@0x18010fed0	C:\Windows\SYSTEM32\ucrtbased.dll	1113808	546	0	33	0	0
+       122	        87	   1114185	    0	      1	                        func@0x18010fed0	C:\Windows\SYSTEM32\ucrtbased.dll	1113808	546	0	33	0	0
+       123	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	1	0	92	0	0

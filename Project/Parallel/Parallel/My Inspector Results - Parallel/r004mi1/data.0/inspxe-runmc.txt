@@ -1,0 +1,32 @@
+
+=== Start: [2020/05/24 17:58:21] === 
+Analysis started...
+Result file: C:\Users\Jam\source\repos\Parallel\Parallel\My Inspector Results - Parallel\r004mi1\r004mi1.inspxe 
+Analysis started for c:\users\jam\source\repos\parallel\x64\debug\parallel.exe (pid = 9372) 
+Loaded module: c:\users\jam\source\repos\parallel\x64\debug\parallel.exe, address range [0x7ff748f20000-0x7ff748f72fff] 
+Loaded module: c:\windows\system32\kernelbase.dll, address range [0x7fffb81b0000-0x7fffb8422fff], minimal analysis 
+Loaded module: c:\windows\system32\kernel32.dll, address range [0x7fffbad00000-0x7fffbadb0fff], minimal analysis 
+Loaded module: c:\windows\system32\ntdll.dll, address range [0x7fffbb8e0000-0x7fffbbac0fff], minimal analysis 
+Loaded module: f:\program files (x86)\intelswtools\inspector 2019\bin64\dnclrprofinfo.dll, address range [0x7fff7f560000-0x7fff7f588fff] 
+Loaded module: c:\windows\system32\msvcp140d.dll, address range [0x7fff52b10000-0x7fff52c00fff] 
+Loaded module: f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\libmmdd.dll, address range [0x7fff50260000-0x7fff506c5fff] 
+Loaded module: f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll, address range [0x7fff69c90000-0x7fff69ce2fff], minimal analysis 
+Loaded module: c:\windows\system32\user32.dll, address range [0x7fffbaaf0000-0x7fffbac7ffff], minimal analysis 
+Loaded module: c:\windows\system32\win32u.dll, address range [0x2cd0c680000-0x2cd0c69ffff] 
+Loaded module: c:\windows\system32\gdi32.dll, address range [0x7fffbb520000-0x7fffbb547fff], minimal analysis 
+Loaded module: c:\windows\system32\gdi32full.dll, address range [0x7fffb7db0000-0x7fffb7f40fff], minimal analysis 
+Loaded module: c:\windows\system32\msvcp_win.dll, address range [0x7fffb7d10000-0x7fffb7daefff] 
+Loaded module: c:\windows\system32\ucrtbase.dll, address range [0x7fffb8050000-0x7fffb8147fff] 
+Loaded module: c:\windows\system32\vcruntime140d.dll, address range [0x7fff7da60000-0x7fff7da81fff] 
+Loaded module: c:\windows\system32\ucrtbased.dll, address range [0x7fff514e0000-0x7fff516a1fff] 
+Loaded module: c:\windows\system32\imm32.dll, address range [0x7fffb9280000-0x7fffb92acfff], minimal analysis 
+Loaded module: f:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll, address range [0x7fff69c50000-0x7fff69c83fff], minimal analysis 
+Loaded module: c:\windows\system32\kernel.appcore.dll, address range [0x7fffb7c50000-0x7fffb7c60fff] 
+Loaded module: c:\windows\system32\msvcrt.dll, address range [0x7fffbb800000-0x7fffbb89dfff], minimal analysis 
+Loaded module: c:\windows\system32\rpcrt4.dll, address range [0x7fffb90f0000-0x7fffb9213fff], minimal analysis 
+Process c:\users\jam\source\repos\parallel\x64\debug\parallel.exe exited with code 0. Leak analysis starting. Please wait... 
+Completed analysis for c:\users\jam\source\repos\parallel\x64\debug\parallel.exe 
+Application exit code: 0 
+Result file: C:\Users\Jam\source\repos\Parallel\Parallel\My Inspector Results - Parallel\r004mi1\r004mi1.inspxe 
+Analysis completed
+=== End: [2020/05/24 17:58:30] === 

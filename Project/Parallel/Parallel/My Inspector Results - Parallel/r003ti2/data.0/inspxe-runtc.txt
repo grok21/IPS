@@ -1,0 +1,50 @@
+
+=== Start: [2020/05/24 17:57:13] === 
+Analysis started...
+Result file: C:\Users\Jam\source\repos\Parallel\Parallel\My Inspector Results - Parallel\r003ti2\r003ti2.inspxe 
+Found target process c:\users\jam\source\repos\parallel\x64\debug\parallel.exe (PID = 7048). Analysis started... 
+Loaded module: c:\users\jam\source\repos\parallel\x64\debug\parallel.exe. 
+Loaded module: c:\windows\system32\kernelbase.dll. 
+Loaded module: c:\windows\system32\kernel32.dll. 
+Loaded module: c:\windows\system32\ntdll.dll. 
+Loaded module: c:\windows\system32\vcruntime140d.dll. 
+Loaded module: c:\windows\system32\msvcp140d.dll. 
+Loaded module: f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll. 
+Loaded module: f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\libmmdd.dll. 
+Loaded module: c:\windows\system32\ucrtbased.dll. 
+Loaded module: c:\windows\system32\user32.dll. 
+Loaded module: c:\windows\system32\win32u.dll. 
+Loaded module: c:\windows\system32\gdi32.dll. 
+Loaded module: c:\windows\system32\gdi32full.dll. 
+Loaded module: c:\windows\system32\msvcp_win.dll. 
+Loaded module: c:\windows\system32\ucrtbase.dll. 
+Loaded module: c:\windows\system32\imm32.dll. 
+Loaded module: f:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll. 
+Loaded module: c:\windows\system32\kernel.appcore.dll. 
+Loaded module: c:\windows\system32\msvcrt.dll. 
+Loaded module: c:\windows\system32\rpcrt4.dll. 
+Unloaded module: c:\users\jam\source\repos\parallel\x64\debug\parallel.exe. 
+Unloaded module: c:\windows\system32\kernelbase.dll. 
+Unloaded module: c:\windows\system32\kernel32.dll. 
+Unloaded module: c:\windows\system32\ntdll.dll. 
+Unloaded module: c:\windows\system32\vcruntime140d.dll. 
+Unloaded module: c:\windows\system32\msvcp140d.dll. 
+Unloaded module: f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll. 
+Unloaded module: f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\libmmdd.dll. 
+Unloaded module: c:\windows\system32\ucrtbased.dll. 
+Unloaded module: c:\windows\system32\user32.dll. 
+Unloaded module: c:\windows\system32\win32u.dll. 
+Unloaded module: c:\windows\system32\gdi32.dll. 
+Unloaded module: c:\windows\system32\gdi32full.dll. 
+Unloaded module: c:\windows\system32\msvcp_win.dll. 
+Unloaded module: c:\windows\system32\ucrtbase.dll. 
+Unloaded module: c:\windows\system32\imm32.dll. 
+Unloaded module: f:\program files (x86)\intelswtools\inspector 2019\bin64\runtime\libittnotify.dll. 
+Unloaded module: c:\windows\system32\kernel.appcore.dll. 
+Unloaded module: c:\windows\system32\msvcrt.dll. 
+Unloaded module: c:\windows\system32\rpcrt4.dll. 
+Process c:\users\jam\source\repos\parallel\x64\debug\parallel.exe (PID = 7048) has terminated. 
+Application exit code: 0 
+Result file: C:\Users\Jam\source\repos\Parallel\Parallel\My Inspector Results - Parallel\r003ti2\r003ti2.inspxe 
+Analysis completed
+=== End: [2020/05/24 17:57:35] === 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="c:\users\jam\source\repos\serial\serial\fragmentation.cpp"
+           line_no="294"
+           routine="high_level_analysis::GetSolution"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="4.398140E-002"
+           trip_counts=""
+           func_instance="50"
+           priority="0"/>
+  <hotspot filename="c:\users\jam\source\repos\serial\serial\fragmentation.cpp"
+           line_no="290"
+           routine="high_level_analysis::GetSolution"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="4.398140E-002"
+           trip_counts=""
+           func_instance="52"
+           priority="0"/>
+  <hotspot filename="c:\users\jam\source\repos\serial\serial\fragmentation.cpp"
+           line_no="323"
+           routine="WriteResults"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="1.892963E-002"
+           trip_counts=""
+           func_instance="82"
+           priority="0"/>
+  <hotspot filename="c:\users\jam\source\repos\serial\serial\fragmentation.cpp"
+           line_no="332"
+           routine="WriteResults"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="9.933975E-003"
+           trip_counts=""
+           func_instance="86"
+           priority="0"/>
+  <hotspot filename="d:\agent\_work\2\s\src\vctools\crt\vcstartup\src\heap\new_scalar.cpp"
+           line_no="35"
+           routine="operator new"
+           is_vectorized="0"
+           self_time="0.000000E+000"
+           total_time="7.092500E-006"
+           trip_counts=""
+           func_instance="61"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

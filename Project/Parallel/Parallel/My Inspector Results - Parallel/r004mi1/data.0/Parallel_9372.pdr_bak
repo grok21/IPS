@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diags major="2" minor="0">
+
+<diag id="1">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>2127699983</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>10812</threadid>
+			<stackstamp>2127766107</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\users\jam\source\repos\parallel\x64\debug\parallel.exe</mod>
+				<rva>0x107d</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="2">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>12938670120</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>4172</threadid>
+			<stackstamp>12938770628</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</mod>
+				<rva>0x1a630</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="3">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>12941314055</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>12760</threadid>
+			<stackstamp>12941348823</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</mod>
+				<rva>0x1a630</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="4">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>12943118745</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>3240</threadid>
+			<stackstamp>12943155777</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>f:\program files (x86)\intelswtools\compilers_and_libraries_2019\windows\redist\intel64\compiler\cilkrts20.dll</mod>
+				<rva>0x1a630</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="5">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>15558261817</timestamp>
+		<thread>
+			<thrname>Cilk Worker</thrname>
+			<threadid>3240</threadid>
+			<stackstamp>15558286189</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="6">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>15558649357</timestamp>
+		<thread>
+			<thrname>Cilk Worker</thrname>
+			<threadid>4172</threadid>
+			<stackstamp>15558673133</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="7">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>15559022545</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>10812</threadid>
+			<stackstamp>15559046473</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="8">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>15559392525</timestamp>
+		<thread>
+			<thrname>Cilk Worker</thrname>
+			<threadid>12760</threadid>
+			<stackstamp>15559416357</stackstamp>
+		</thread>
+	</message>
+</diag>
+</diags>

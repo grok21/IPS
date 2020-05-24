@@ -1,0 +1,88 @@
+-r
+C:\Users\Jam\source\repos\Serial\Serial\My Advisor Results - Serial\e000\hs000
+--mrte-mode=auto
+--follow-child
+--return-app-exitcode
+--strategy=ld-linux.so.2:notrace:notrace,ld-linux-x86-64.so.2:notrace:notrace
+--interval=10
+--data-limit-mb=500
+--stack-stitching
+--stackwalk=offline
+--mrte-type=java,dotnet,python
+--type=cpu:stack
+--search-dir
+sym=C:\Users\Jam\source\repos\Serial\x64\Debug
+--search-dir
+sym=C:\Users\Jam\source\repos\Serial
+--search-dir
+bin=C:\Users\Jam\source\repos\Serial\x64\Debug
+--search-dir
+bin=C:\Users\Jam\source\repos\Serial
+--search-dir
+bin=C:/Users\Jam\source\repos\Serial\Serial\$(VC_ExecutablePath_x64)
+--search-dir
+bin=C:/Users\Jam\source\repos\Serial\Serial\$(WindowsSDK_ExecutablePath)
+--search-dir
+bin=C:/Users\Jam\source\repos\Serial\Serial\$(VS_ExecutablePath)
+--search-dir
+bin=C:/Users\Jam\source\repos\Serial\Serial\$(MSBuild_ExecutablePath)
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Team Tools\Static Analysis Tools\FxCop
+--search-dir
+bin=F:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mpi\intel64\bin
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler
+--search-dir
+bin=C:\Windows\system32
+--search-dir
+bin=C:\Windows
+--search-dir
+bin=C:\Windows\System32\Wbem
+--search-dir
+bin=C:\Windows\System32\WindowsPowerShell\v1.0
+--search-dir
+bin=C:\Windows\System32\OpenSSH
+--search-dir
+bin=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+--search-dir
+bin=C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+--search-dir
+bin=C:\Windows\system32\config\systemprofile\.dnx\bin
+--search-dir
+bin=C:\Program Files\Microsoft DNX\Dnvm
+--search-dir
+bin=C:\Program Files\Microsoft SQL Server\120\Tools\Binn
+--search-dir
+bin=C:\Program Files\Microsoft SQL Server\130\Tools\Binn
+--search-dir
+bin=C:\Program Files (x86)\nodejs
+--search-dir
+bin=C:\Program Files\Git\cmd
+--search-dir
+bin=F:\Program Files (x86)\Matlab\runtime\win64
+--search-dir
+bin=F:\Program Files (x86)\Matlab\bin
+--search-dir
+bin=C:\Program Files\OpenVPN\bin
+--search-dir
+bin=C:\Program Files\dotnet
+--search-dir
+bin=C:\Program Files\PuTTY
+--search-dir
+bin=F:\python38\Scripts
+--search-dir
+bin=F:\python38
+--search-dir
+bin=C:\Users\Jam\AppData\Local\Microsoft\WindowsApps
+--search-dir
+bin=C:\Users\Jam\AppData\Roaming\npm
+--search-dir
+bin=F:\Program Files (x86)\altera\13.0sp1\modelsim_ase\win32aloem
+--
+C:\Users\Jam\source\repos\Serial\x64\Debug\Serial.exe

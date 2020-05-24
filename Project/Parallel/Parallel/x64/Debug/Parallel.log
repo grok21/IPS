@@ -1,0 +1,8 @@
+﻿icl: : warning #10182: disabling optimization; runtime debug checks enabled
+  box.cpp
+  fragmentation.cpp
+C:\Users\Jam\source\repos\Parallel\Parallel\fragmentation.cpp(289): warning #3947: "_Cilk_for" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    		cilk_for (int j = 0; j < current_boxes.size(); ++j) // ╨╕╤Б╨┐╨╛╨╗╤М╨╖╤Г╨╡╨╝ cilk_for ╨┤╨╗╤П ╤А╨░╨┐╨░╤А╨░╨╗╨╗╨╡╨╗╨╕╨▓╨░╨╜╨╕╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨│╨╛ ╤Ж╨╕╨║╨╗╨░
+    		^
+  
+  NUCovering.cpp
